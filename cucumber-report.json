@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "test-playwright-website;test-playwright-website",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Test playwright website",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1657393299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to the playwright Website",
+            "match": {
+              "location": "tests\\steps\\Playwright.step.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1971845499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I check the title of page",
+            "match": {
+              "location": "tests\\steps\\Playwright.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101430900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click on Get Started button",
+            "match": {
+              "location": "tests\\steps\\Playwright.step.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296018399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I check heading with the name of Installation",
+            "match": {
+              "location": "tests\\steps\\Playwright.step.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 456875099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 941452299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "test-playwright-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Test playwright website",
+    "tags": [],
+    "uri": "tests\\features\\Playwright.feature"
+  }
+]
